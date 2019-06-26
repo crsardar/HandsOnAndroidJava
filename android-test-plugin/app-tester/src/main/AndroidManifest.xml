@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.crsardar.app_tester">
+
+    <!-- According to my tests, this is NOT required - Chitta, -->
+    <!-- Specify runner and target application package -->
+    <!--<instrumentation android:name="android.support.test.runner.AndroidJUnitRunner"
+                     android:targetPackage="com.crsardar.handson.android.testplugin"/>-->
+</manifest>

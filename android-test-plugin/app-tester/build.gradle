@@ -1,0 +1,25 @@
+apply plugin: 'com.android.test'
+
+android {
+    
+    compileSdkVersion 28
+    
+    defaultConfig {
+        minSdkVersion 25
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testApplicationId "com.crsardar.app_tester"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    // Set the target app project. 
+    // The module specified here should contain the production code test should run against.
+    targetProjectPath ':app'
+
+}
+
+dependencies {
+    implementation 'junit:junit:4.12'
+    implementation 'com.android.support.test:runner:1.0.2'
+}
